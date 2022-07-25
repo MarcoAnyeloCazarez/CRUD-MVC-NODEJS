@@ -16,9 +16,6 @@ app.use('/hola', (req, res) => {
 app.use('/api/v1', tasksRouter)
 
 
-
-
-
 app.listen(8000, () => {
     console.log('Server started at 8000 port')
 })
